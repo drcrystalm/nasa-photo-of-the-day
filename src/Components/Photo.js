@@ -1,8 +1,15 @@
 import React from "react"
 
-function Photo(props) {
-    console.log(props.photo)
-    return <img alt='' src={props.photo} />
+const Photo = props => {
+    return (
+        <div className='nasa_card' key={props.index}>
+            <img
+                className='nasa_photo'
+                alt='awesome space photo'
+                src={props.photo}
+            />
+        </div>
+    )
 }
 
 export default Photo
