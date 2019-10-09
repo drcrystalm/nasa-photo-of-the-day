@@ -6,7 +6,7 @@ const Photo = props => {
             <img
                 className='nasa_photo'
                 alt='awesome space photo'
-                src={props.photo}
+                src={props.image}
             />
         </div>
     )

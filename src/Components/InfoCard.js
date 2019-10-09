@@ -8,7 +8,7 @@ const InfoCard = props => {
             <h2>Title: {props.title}</h2>
             <p>{props.media_type}</p>
             <p>Date: {props.date}</p>
-            <p>This looks important => {props.hdurl}</p>
+            {/* <p>This looks important => {props.hdurl}</p> */}
             <p>{props.explanation}</p>
         </div>
     )

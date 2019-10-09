@@ -23,17 +23,16 @@ export default function InfoList() {
     return (
         <div>
             <p>I am on the struggle bus.</p>
-            <p>
-                <Photo image={photo.photo} />
-                <InfoCard
-                    key={nasaData.index}
-                    title={nasaData.title}
-                    media_type={nasaData.media_type}
-                    date={nasaData.date}
-                    hdurl={nasaData.hdurl}
-                    explanation={nasaData.explanation}
-                />
-            </p>
+
+            <Photo image={photo} />
+            <InfoCard
+                key={nasaData.index}
+                title={nasaData.title}
+                media_type={nasaData.media_type}
+                date={nasaData.date}
+                hdurl={nasaData.hdurl}
+                explanation={nasaData.explanation}
+            />
         </div>
     )
 }
